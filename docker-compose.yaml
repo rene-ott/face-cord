@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  app:
+    image: "face-cord"
+    container_name: face-cord-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - Bot__Name=
+      - Bot__Channels__0__=
+      - Bot__Facebook__Login=
+      - Bot__Facebook__Password=
+      - Bot__Facebook__User=
+      - Bot__Discord__Token=

@@ -1,0 +1,7 @@
+.git
+.gitignore
+obj/
+bin/
+Dockerfile
+.local-chromium
+appsettings.Local.json

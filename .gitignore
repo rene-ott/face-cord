@@ -1,0 +1,7 @@
+obj/
+bin/
+.local-chromium/
+log.txt
+.vs/
+appsettings.Local.json
+docker-compose-local.yaml
